@@ -15,7 +15,7 @@
   background: #333;
 }
 
-.header h1 {
+.header-title {
   font-size: 3rem;
   color: #fff;
   letter-spacing: 3px;
@@ -103,4 +103,37 @@ button:hover {
 
 .score-box .score {
   margin-top: 20px;
+}
+
+@media (max-width: 550px) {
+  .header-title {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  .game-info h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .game-info h2 {
+    font-size: 1rem;
+  }
+
+  .buttons {
+    gap: 25px;
+  }
+
+  .btn-square {
+    width: 100px;
+    height: 100px;
+  }
+
+  .icon {
+    font-size: 2.5em;
+  }
+
+  .score-info h1 {
+    font-size: 2rem;
+  }
 }
