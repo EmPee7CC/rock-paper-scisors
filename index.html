@@ -4,9 +4,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/rockPaperScisors/style.css" />
+    <title>Rock Paper Scisors</title>
   </head>
   <body>
+    <header class="header">
+      <h1 class="header-title">Rock Paper Scisors</h1>
+    </header>
+    <main class="main">
+      <div class="game-info">
+        <h1>Do you want to play?</h1>
+        <h2>Choose your weapon!</h2>
+      </div>
+      <div class="buttons">
+        <button class="btn btn-square" id="rock">
+          <i class="icon fas fa-hand-rock"></i>
+        </button>
+        <button class="btn btn-square" id="paper">
+          <i class="icon fas fa-hand-paper"></i>
+        </button>
+        <button class="btn btn-square" id="scisors">
+          <i class="icon fas fa-hand-scissors"></i>
+        </button>
+      </div>
+      <div class="score-board">
+        <div class="score-info">
+          <h1>Results</h1>
+          <p class="score-para"></p>
+        </div>
+        <div class="score-boxes">
+          <div class="score-box">
+            <p class="score" id="playerScore">Player: 0</p>
+          </div>
+          <div class="score-box">
+            <p class="score" id="computerScore">Computer: 0</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <script src="script.js"></script>
   </body>
 </html>

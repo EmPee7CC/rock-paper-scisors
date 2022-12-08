@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  background: #333;
+}
+
+.header h1 {
+  font-size: 3rem;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.main {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.game-info {
+  margin-bottom: 30px;
+}
+
+.game-info h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.icon-grey {
+  color: rgb(80, 80, 80);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  border-radius: 5px;
+  background-color: rgb(80, 80, 80);
+}
+
+.btn-square {
+  width: 150px;
+  height: 150px;
+}
+
+.score-board {
+  margin-top: 50px;
+  background-color: rgb(80, 80, 80);
+  color: #fff;
+  padding: 40px 0;
+}
+
+.score-info h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.score-para {
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.score-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 30px;
+}
+
+.score-box .score {
+  margin-top: 20px;
+}
